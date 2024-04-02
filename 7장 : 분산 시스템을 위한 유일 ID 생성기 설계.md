@@ -19,7 +19,7 @@
 
 ### 다중 마스터 복제
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b36e261-a272-46e0-bb72-1d3c2abc0a30/0585dea1-79a9-47bc-a574-292527fad81a/Untitled.png)
+![image](https://github.com/4k-study/book-System-Design-Interview/assets/85796588/b522df5e-cbff-493e-ba02-560fde58be22)
 
 이 접근법은 DB의 auto_increment 기능을 활용한다. 다만 값의 증가량은 1이 아닌 k이다.
 
@@ -50,7 +50,7 @@ auto_increment 기능을 갖춘 DB서버를 중앙 집중형으로 하나만 사
 
 플리커에선 이 기술을 사용한다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b36e261-a272-46e0-bb72-1d3c2abc0a30/7bef5707-d910-4c40-8318-5ee2f0bd656e/Untitled.png)
+![image](https://github.com/4k-study/book-System-Design-Interview/assets/85796588/61aac9ab-f230-4d81-aaf8-b992606d67b9)
 
 장점
 
@@ -64,7 +64,7 @@ auto_increment 기능을 갖춘 DB서버를 중앙 집중형으로 하나만 사
 
 ### 트위터 스노플레이크 접근법
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/4b36e261-a272-46e0-bb72-1d3c2abc0a30/1c767ff5-8170-4510-930d-64f6ae8fb302/Untitled.png)
+![image](https://github.com/4k-study/book-System-Design-Interview/assets/85796588/d42f6f36-f0a8-44b1-89b1-020f4bf48e71)
 
 divide and conquer 전략은 하나의 ID를 여러 section으로 분할하는 것이다.
 
